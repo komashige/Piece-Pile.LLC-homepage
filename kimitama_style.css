@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap')
+
+:root {
+  --primary: #0d6efd;
+  --dark: #21252f;
+  --body: #888;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+  --overlay: rgba(255, 255, 255, 0.9);
+}
+
+body {
+  font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif;  
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--body);
+}
+
+/* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
+.kimitama-font {
+  font-family: 'Slackside One', sans-serif;
+  font-size: 180px;
+  color: #F4F4F4; /* テキストの色 */
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+a.text-white {
+  display: inline-block; /* aタグをインラインブロック要素に変更 */
+  text-decoration: none;
+  color: var(--dark); /* または必要に応じて他の色を指定 */
+  transition: color 0.4s, transform 0.4s; /* 色と拡大のトランジションを追加 */
+}
+
+a.text-white:hover h6 {
+  transform: scale(1.2); /* h6がホバー時に少し大きくする */
+}
+
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.iconbox {
+  margin-right: 10px; /* アイコンとタイトルの間隔 */
+}
+
+.title {
+  margin: 0; /* 必要に応じて調整 */
+}
+
+
+.btn {
+  padding: 14px 18px;
+  border-width: 2px;
+}
+
+.hero {
+  background-image: url("/img/きみたま　２.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.hero::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 250, 250, 0.9); /* 白の半透明オーバーレイ */
+  pointer-events: none; /* オーバーレイがクリックやタッチ操作を妨げないようにします */
+  z-index: -1;
+}
+
+.card-effect {
+  box-shadow: 0 8px 22px rgba(0,0,0,0.2);
+  background-color: #fff;
+  padding: 25px;
+}
+
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.iconbox {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.iconbox img {
+  width: 100%; /* 親要素の幅に合わせる */
+  height: 100%; /* 親要素の高さに合わせる */
+  border-radius: 100px; /* 角を丸くする */
+  object-fit: cover; /* 画像のアスペクト比を保ちつつ、設定された高さと幅に収まるように調整 */
+}
+
+
+.service {
+  position: relative;
+  overflow: hidden;
+}
+
+.service::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background-color: #888;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.35s ease;
+  z-index: -1;
+}
+
+.service:hover h5,
+.service:hover p {
+  color: #fff;
+}
+
+.service:hover .iconbox {
+  background-color: #fff;
+}
+
+.service:hover::after {
+  opacity: 1;
+  top: 0;
+}
+
+/* メニュー写真 */
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  opacity: 0;
+  transition: all 0.4s ease;
+  border-radius: 10px; /* ここで四隅の角を丸くする */
+}
+
+img {
+  width: 100%;
+  border-radius: 10px; /* ここで四隅の角を丸くする */
+}
+
+.project img {
+  transition: all 0.4s ease;
+  border-radius: 10px; /* ここで四隅の角を丸くする */
+}
+
+.project:hover .overlay {
+  opacity: 1;
+  border-radius: 10px; /* ここで四隅の角を丸くする */
+}
+
+.project:hover img {
+  transform: scale(1.5);
+  border-radius: 10px; /* ホバー時も角の丸みを維持 */
+}
+
+.footer-top {
+  background-color: orange;
+}
