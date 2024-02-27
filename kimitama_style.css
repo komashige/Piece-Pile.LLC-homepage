@@ -97,6 +97,7 @@ a.text-white:hover h6 {
   box-shadow: 0 8px 22px rgba(0,0,0,0.2);
   background-color: #fff;
   padding: 25px;
+  border-radius: 10px; /* ここで四隅の角を丸くする */
 }
 
 .card-effect:hover {
@@ -132,12 +133,13 @@ a.text-white:hover h6 {
   position: absolute;
   top: -100%;
   left: 0;
-  background-color: #888;
+  background-color: #FED8B1;
   width: 100%;
   height: 100%;
   opacity: 0;
   transition: all 0.35s ease;
   z-index: -1;
+  border-radius: 10px; /* ここで四隅の角を丸くする */
 }
 
 .service:hover h5,
@@ -194,4 +196,8 @@ img {
 
 .footer-top {
   background-color: orange;
+}
+
+footer {
+  margin-top: 50px; /* または padding-top: 50px; */
 }
