@@ -158,6 +158,19 @@ a {
   top: 0;
 }
 
+.service-kimitama::after {
+  background-color: orange; /* 橙色の背景 */
+}
+
+.service-room::after {
+  background-color: #8FBC8F; /* 薄緑色の背景 */
+}
+
+.service-kitchen::after {
+  background-color: #f5821f; /* 赤色の背景 */
+}
+
+
 /* メニュー写真 */
 .project {
   position: relative;
