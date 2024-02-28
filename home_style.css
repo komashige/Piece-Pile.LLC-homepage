@@ -238,3 +238,14 @@ img {
 .footer-top {
   background-color: lightblue;
 }
+
+/* メールアドレスのリンクに適用されるスタイル */
+a[href^="mailto:"] {
+  color: inherit; /* 初期状態では親要素の色を継承 */
+  transition: color 0.3s ease; /* 色の変化を滑らかに */
+}
+
+/* メールアドレスのリンクにカーソルがホバーされたときのスタイル */
+a[href^="mailto:"]:hover {
+  color: #fff; /* ホバー時に色を白に変更 */
+}
