@@ -21,14 +21,14 @@ body {
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
 .kimitama-font {
   font-family: 'Slackside One', sans-serif;
-  font-size: 130px;
+  font-size: 120px;
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
 
 .pile-font {
   font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif; 
-  font-size: 60px;
+  font-size: 40px;
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
