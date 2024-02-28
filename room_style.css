@@ -105,6 +105,9 @@ a.text-white:hover h6 {
   .pile-font {
     font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
   }
+  .kimitama-font {
+    font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
+  }
 }
 
 .hero::after{
