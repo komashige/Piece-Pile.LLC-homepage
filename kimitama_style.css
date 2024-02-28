@@ -14,6 +14,8 @@ body {
   font-style: normal;
   line-height: 1.7;
   color: var(--body);
+  max-width: 1200px; /* 最大幅を1200pxに設定 */
+  margin: 0 auto; /* 上下のマージンを0に、左右のマージンを自動に設定して中央寄せ */
 }
 
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
@@ -73,13 +75,18 @@ a.text-white:hover h6 {
 }
 
 .hero {
+  max-width: 1200px; /* コンテナの最大幅を1200pxに設定 */
+  width: 100%; /* ビューポートや親要素が1200px以下の場合、コンテナの幅を100%に設定 */
+  margin: 0 auto; /* 中央揃えにするためのマージン設定 */
   background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E3%81%8D%E3%81%BF%E3%81%9F%E3%81%BE%E3%80%80%EF%BC%92.jpg?raw=true");
-  background-position: center;
-  background-size: cover;
+  background-position: center center;
+  background-size: 100% auto; /* 背景画像の幅をコンテナの幅に合わせ、高さは自動調整 */
+  background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   background-attachment: fixed;
   position: relative;
   z-index: 1;
 }
+/* ("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E3%81%8D%E3%81%BF%E3%81%9F%E3%81%BE%E3%80%80%EF%BC%92.jpg?raw=true") */
 
 .hero::after{
   content: "";
