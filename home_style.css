@@ -93,12 +93,19 @@ a {
   z-index: 1;
 }
 
-
 @media (max-width: 768px) {
   .hero {
     background-attachment: scroll;
+    padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
   }
 }
+
+@media (max-width: 768px) {
+  .pile-font {
+    font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
+  }
+}
+
 
 .hero::after{
   content: "";
