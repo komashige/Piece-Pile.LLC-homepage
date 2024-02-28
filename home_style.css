@@ -251,10 +251,6 @@ img {
   border-radius: 10px; /* ホバー時も角の丸みを維持 */
 }
 
-.footer-top {
-  background-color: lightblue;
-}
-
 /* メールアドレスのリンクに適用されるスタイル */
 a[href^="mailto:"] {
   color: inherit; /* 初期状態では親要素の色を継承 */

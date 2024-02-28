@@ -120,7 +120,7 @@ a.text-white:hover h6 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(255, 250, 250, 0.9); /* 白の半透明オーバーレイ */
+  background-color: rgba(255, 250, 250, 0.7); /* 白の半透明オーバーレイ */
   pointer-events: none; /* オーバーレイがクリックやタッチ操作を妨げないようにします */
   z-index: -1;
 }
