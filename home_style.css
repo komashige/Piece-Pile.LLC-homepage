@@ -84,7 +84,7 @@ a {
   max-width: 1200px; /* コンテナの最大幅を1200pxに設定 */
   width: 100%; /* ビューポートや親要素が1200px以下の場合、コンテナの幅を100%に設定 */
   margin: 0 auto; /* 中央揃えにするためのマージン設定 */
-  background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/piece-pile%204.jpg?raw=true");
+  background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E9%A2%A8%E6%99%AF1.jpg?raw=true");
   background-position: center center;
   background-size: 100% auto; /* 背景画像の幅をコンテナの幅に合わせ、高さは自動調整 */
   background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
