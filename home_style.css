@@ -34,7 +34,7 @@ body {
 }
 
 
-.kimitama-font, .pile-font {
+.kimitama-font, .pile-font, .yomi-font {
   text-shadow: 
     -3px -3px 0 #fff,  
      3px -3px 0 #fff,
@@ -46,6 +46,17 @@ body {
    -3px   0px 0 #fff;
 }
 
+.memo-font {
+  text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff,
+    0px   1px 0 #fff,
+    1px   0px 0 #fff,
+    0px  -1px 0 #fff,
+   -1px   0px 0 #fff;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark);
@@ -119,7 +130,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.6); /* 白の半透明オーバーレイ */
+  background-color: rgba(255, 255, 255, 0.5); /* 白の半透明オーバーレイ */
   pointer-events: none; /* オーバーレイがクリックやタッチ操作を妨げないようにします */
   z-index: -1;
 }
