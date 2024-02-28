@@ -20,8 +20,8 @@ body {
 
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
 .kimitama-font {
-  font-family: 'Slackside One', sans-serif;
-  font-size: 120px;
+  font-family: 'Merriweather-BoldItalic', sans-serif;
+  font-size: 100px;
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
@@ -111,7 +111,7 @@ a.text-white:hover h6 {
   .hero {
     background-attachment: scroll;
     padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
-    background-size: contain; /* 背景画像がコンテナに収まるように調整 */
+     /* background-size: contain;背景画像がコンテナに収まるように調整 */
     background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   }
 }

@@ -20,7 +20,7 @@ body {
 
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
 .kimitama-font {
-  font-family: 'Slackside One', sans-serif;
+  font-family: 'Pigmo-00', sans-serif;
   font-size: 120px;
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
@@ -32,6 +32,19 @@ body {
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
+
+.kimitama-font, .pile-font, .yomi-font {
+  text-shadow: 
+    -3px -3px 0 #FFD700,  
+     3px -3px 0 #FFD700,
+    -3px  3px 0 #FFD700,
+     3px  3px 0 #FFD700,
+    0px   3px 0 #FFD700,
+    3px   0px 0 #FFD700,
+    0px  -3px 0 #FFD700,
+   -3px   0px 0 #FFD700;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark);
@@ -99,7 +112,7 @@ a.text-white:hover h6 {
   .hero {
     background-attachment: scroll;
     padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
-    background-size: contain; /* 背景画像がコンテナに収まるように調整 */
+     /* 背景画像がコンテナに収まるように調整 */
     background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   }
 }
@@ -109,7 +122,7 @@ a.text-white:hover h6 {
     font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
   }
   .kimitama-font {
-    font-size: 60px; /* スマホ表示用のフォントサイズに調整 */
+    font-size: 80px; /* スマホ表示用のフォントサイズに調整 */
   }
 }
 
