@@ -80,13 +80,25 @@ a.text-white:hover h6 {
   margin: 0 auto; /* 中央揃えにするためのマージン設定 */
   background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E3%81%8D%E3%81%BF%E3%81%9F%E3%81%BE%E3%80%80%EF%BC%93.jpg?raw=true");
   background-position: center center;
-  background-size: 100% auto; /* 背景画像の幅をコンテナの幅に合わせ、高さは自動調整 */
+  background-size: cover; /* 背景画像の幅をコンテナの幅に合わせ、高さは自動調整 */
   background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   background-attachment: fixed;
   position: relative;
   z-index: 1;
 }
 /*  */
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+    padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
+  }
+}
+
+@media (max-width: 768px) {
+  .pile-font {
+    font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
+  }
+}
 
 .hero::after{
   content: "";
