@@ -97,8 +97,6 @@ a {
   .hero {
     background-attachment: scroll;
     padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
-    background-size: contain; /* 背景画像がコンテナに収まるように調整 */
-    background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   }
 }
 
