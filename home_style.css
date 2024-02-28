@@ -94,6 +94,12 @@ a {
 }
 
 
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
+
 .hero::after{
   content: "";
   position: absolute;
