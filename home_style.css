@@ -28,10 +28,23 @@ body {
 
 .pile-font {
   font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif; 
-  font-size: 80px;
+  font-size: 60px;
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
+
+.kimitama-font, .pile-font {
+  text-shadow: 
+    -3px -3px 0 #fff,  
+     3px -3px 0 #fff,
+    -3px  3px 0 #fff,
+     3px  3px 0 #fff,
+    0px   3px 0 #fff,
+    3px   0px 0 #fff,
+    0px  -3px 0 #fff,
+   -3px   0px 0 #fff;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark);
