@@ -26,6 +26,13 @@ body {
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
 
+.pile-font {
+  font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif; 
+  font-size: 40px;
+  color: #F4F4F4; /* テキストの色 */
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark);
   font-weight: 700;
