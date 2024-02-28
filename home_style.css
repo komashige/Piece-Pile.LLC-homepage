@@ -97,12 +97,17 @@ a {
   .hero {
     background-attachment: scroll;
     padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
+    background-size: contain; /* 背景画像がコンテナに収まるように調整 */
+    background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   }
 }
 
 @media (max-width: 768px) {
   .pile-font {
     font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
+  }
+  .kimitama-font {
+    font-size: 60px; /* スマホ表示用のフォントサイズに調整 */
   }
 }
 
