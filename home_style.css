@@ -33,6 +33,7 @@ body {
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
 
+
 .kimitama-font, .pile-font {
   text-shadow: 
     -3px -3px 0 #fff,  
@@ -52,8 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section{
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 a {
@@ -83,6 +84,7 @@ a {
 .hero {
   max-width: 1200px; /* コンテナの最大幅を1200pxに設定 */
   width: 100%; /* ビューポートや親要素が1200px以下の場合、コンテナの幅を100%に設定 */
+  height: 600px; /* 特定のピクセル数で高さを設定 */
   margin: 0 auto; /* 中央揃えにするためのマージン設定 */
   background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E9%A2%A8%E6%99%AF1.jpg?raw=true");
   background-position: center center;
@@ -117,7 +119,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.8); /* 白の半透明オーバーレイ */
+  background-color: rgba(255, 255, 255, 0.6); /* 白の半透明オーバーレイ */
   pointer-events: none; /* オーバーレイがクリックやタッチ操作を妨げないようにします */
   z-index: -1;
 }
