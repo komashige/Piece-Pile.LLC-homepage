@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap')
+/* @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Slackside+One&family=Trocchi&display=swap') */
 
 :root {
   --primary: #0d6efd;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif;  
+  font-family:  "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif;   
   font-weight: 400;
   font-style: normal;
   line-height: 1.7;
@@ -252,4 +252,9 @@ a[href^="mailto:"] {
 /* メールアドレスのリンクにカーソルがホバーされたときのスタイル */
 a[href^="mailto:"]:hover {
   color: #fff; /* ホバー時に色を白に変更 */
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; /* 黒の縁取りを追加 */
 }
