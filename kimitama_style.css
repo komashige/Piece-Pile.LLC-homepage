@@ -21,7 +21,7 @@ body {
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
 .kimitama-font {
   font-family: "Slackside One", cursive;
-  font-size: 120px;
+  font-size: 180px;
   color: #F4F4F4; /* テキストの色 */
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
@@ -133,7 +133,7 @@ a.text-white:hover h6 {
     font-size: 40px; /* スマホ表示用のフォントサイズに調整 */
   }
   .kimitama-font {
-    font-size: 80px; /* スマホ表示用のフォントサイズに調整 */
+    font-size: 180px; /* スマホ表示用のフォントサイズに調整 */
   }
 }
 
