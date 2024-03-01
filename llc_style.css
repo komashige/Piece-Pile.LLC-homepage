@@ -268,3 +268,11 @@ a[href^="mailto:"] {
 a[href^="mailto:"]:hover {
   color: #fff; /* ホバー時に色を白に変更 */
 }
+
+.home-back a {
+  color: white; /* リンクの基本色を白に設定 */
+}
+
+.home-back:hover a {
+  color: #00008B; /* ホバー時にダークブルーに変更 */
+}
