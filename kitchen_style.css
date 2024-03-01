@@ -149,6 +149,13 @@ a.text-white:hover h6 {
   z-index: -1;
 }
 
+.custom-line-height h1,
+.custom-line-height h3,
+.custom-line-height p {
+  line-height: 1.5; /* または必要に応じて他の値に設定 */
+}
+
+
 .card-effect {
   box-shadow: 0 8px 22px rgba(0,0,0,0.2);
   background-color: #fff;

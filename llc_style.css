@@ -146,11 +146,13 @@ a {
   box-shadow: 0 8px 22px rgba(0,0,0,0.2);
   background-color: #fff;
   padding: 25px;
+  border-radius: 10px; /* 角を丸くする */
 }
 
 .card-effect:hover {
   box-shadow: none;
   transform: translateY(5px);
+  
 }
 
 .header {
@@ -191,6 +193,7 @@ a {
   opacity: 0;
   transition: all 0.35s ease;
   z-index: -1;
+  
 }
 
 .service:hover h5,
@@ -209,14 +212,17 @@ a {
 
 .service-kimitama::after {
   background-color: orange; /* 橙色の背景 */
+  border-radius: 10px; /* 角を丸くする */
 }
 
 .service-room::after {
   background-color: #8FBC8F; /* 薄緑色の背景 */
+  border-radius: 10px; /* 角を丸くする */
 }
 
 .service-kitchen::after {
   background-color: #f5821f; /* 赤色の背景 */
+  border-radius: 10px; /* 角を丸くする */
 }
 
 
