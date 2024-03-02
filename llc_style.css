@@ -99,6 +99,18 @@ a {
   border-width: 2px;
 }
 
+.btn-secondary {
+  background-image: linear-gradient(to bottom, #f8b195, #f67280);
+  border: none; /* 枠線を消したい場合 */
+  color: black; /* テキストの色を変更したい場合 */
+}
+
+.btn-success {
+  background-image: linear-gradient(to bottom, #a8e063, #56ab2f);
+  border: none; /* 枠線を消したい場合 */
+  color: black; /* テキストの色を変更したい場合 */
+}
+
 .hero {
   max-width: 1200px; /* コンテナの最大幅を1200pxに設定 */
   width: 100%; /* ビューポートや親要素が1200px以下の場合、コンテナの幅を100%に設定 */
