@@ -112,7 +112,7 @@ a.text-white:hover h6 {
   margin: 0 auto; /* 中央揃えにするためのマージン設定 */
   background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E3%81%8D%E3%81%BF%E3%81%9F%E3%81%BE%E3%80%80%EF%BC%92.jpg?raw=true");
   background-position: center center;
-  background-size: cover; /* 背景画像の幅をコンテナの幅に合わせ、高さは自動調整 */
+  background-size: 1200px auto; /* 幅を1200pxに設定し、高さは自動調整 */
   background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   background-attachment: fixed;
   position: relative;
@@ -123,7 +123,7 @@ a.text-white:hover h6 {
   .hero {
     background-attachment: scroll;
     padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
-     /* 背景画像がコンテナに収まるように調整 */
+    background-size: contain; /* 背景画像がコンテナに収まるように調整 */
     background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   }
 }

@@ -118,7 +118,7 @@ a {
   margin: 0 auto; /* 中央揃えにするためのマージン設定 */
   background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/mainimg.jpg?raw=true");
   background-position: center center;
-  background-size: cover; /* 背景画像の幅をコンテナの幅に合わせ、高さは自動調整 */
+  background-size: 1200px auto; /* 幅を1200pxに設定し、高さは自動調整 */
   background-repeat: no-repeat; /* 背景画像が繰り返されないように設定 */
   background-attachment: fixed;
   position: relative;
