@@ -227,6 +227,88 @@ a {
   border-radius: 10px; /* 角を丸くする */
 }
 
+.service-kimitama {
+  position: relative; /* オーバーレイの位置決めの基準とする */
+  background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E3%81%8D%E3%81%BF%E3%81%9F%E3%81%BE%E3%80%80%EF%BC%92.jpg?raw=true"); /* 背景画像のURL */
+  background-size: cover; /* 背景画像をボックスにぴったり合わせる */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.service-kimitama::before {
+  content: ""; /* 必須: オーバーレイを生成 */
+  position: absolute; /* オーバーレイを絶対位置で配置 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5); /* 白の半透明オーバーレイ */
+  z-index: 1; /* オーバーレイをコンテンツの下に配置 */
+}
+
+/* コンテンツをオーバーレイより前面に表示 */
+.service-kimitama > * {
+  position: relative;
+  z-index: 2;
+}
+
+.service-room::after {
+  background-color: #8FBC8F; /* 薄緑色の背景 */
+  border-radius: 10px; /* 角を丸くする */
+}
+
+.service-room {
+  position: relative; /* オーバーレイの位置決めの基準とする */
+  background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/pro2.jpg?raw=true"); /* 背景画像のURL */
+  background-size: cover; /* 背景画像をボックスにぴったり合わせる */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.service-room::before {
+  content: ""; /* 必須: オーバーレイを生成 */
+  position: absolute; /* オーバーレイを絶対位置で配置 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5); /* 白の半透明オーバーレイ */
+  z-index: 1; /* オーバーレイをコンテンツの下に配置 */
+}
+
+/* コンテンツをオーバーレイより前面に表示 */
+.service-room > * {
+  position: relative;
+  z-index: 2;
+}
+
+.service-kitchen::after {
+  background-color: #f5821f; /* 赤色の背景 */
+  border-radius: 10px; /* 角を丸くする */
+}
+
+.service-kitchen {
+  position: relative; /* オーバーレイの位置決めの基準とする */
+  background-image: url("https://github.com/komashige/Piece-Pile.LLC-homepage/blob/main/img/%E3%81%8D%E3%81%BF%E3%81%9F%E3%81%BE%E3%80%80%EF%BC%93.jpg?raw=true"); /* 背景画像のURL */
+  background-size: cover; /* 背景画像をボックスにぴったり合わせる */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.service-kitchen::before {
+  content: ""; /* 必須: オーバーレイを生成 */
+  position: absolute; /* オーバーレイを絶対位置で配置 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5); /* 白の半透明オーバーレイ */
+  z-index: 1; /* オーバーレイをコンテンツの下に配置 */
+}
+
+/* コンテンツをオーバーレイより前面に表示 */
+.service-kitchen > * {
+  position: relative;
+  z-index: 2;
+}
+
 .service-room::after {
   background-color: #8FBC8F; /* 薄緑色の背景 */
   border-radius: 10px; /* 角を丸くする */
