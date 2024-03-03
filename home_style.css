@@ -163,7 +163,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.6); /* 白の半透明オーバーレイ */
+  background-color: rgba(255, 255, 255, 0); /* 白の半透明オーバーレイ */
   pointer-events: none; /* オーバーレイがクリックやタッチ操作を妨げないようにします */
   z-index: -1;
 }
