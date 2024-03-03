@@ -40,6 +40,18 @@ body {
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
 }
 
+/* カスタムリンクのスタイル */
+.custom-link {
+  color: #3498db; /* 通常時のリンクの色 */
+  text-decoration: underline; /* アンダーラインを付ける */
+  transition: color 0.3s ease; /* 色の変化を滑らかに */
+}
+
+.custom-link:hover {
+  color: #2ecc71; /* ホバー時の色 */
+}
+
+
 
 .kimitama-font, .pile-font, .yomi-font {
   text-shadow: 
@@ -151,7 +163,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5); /* 白の半透明オーバーレイ */
+  background-color: rgba(255, 255, 255, 0.6); /* 白の半透明オーバーレイ */
   pointer-events: none; /* オーバーレイがクリックやタッチ操作を妨げないようにします */
   z-index: -1;
 }
