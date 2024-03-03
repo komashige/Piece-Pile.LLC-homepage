@@ -141,11 +141,11 @@ a {
 
 @media (max-width: 768px) {
   .hero {
+    margin-top: 120px; /* ナビゲーションバーの高さに応じて調整してください */
     background-attachment: scroll;
     padding-top: 100px; /* ナビゲーションバーとの間にスペースを追加 */
     min-height: 100vh; /* スマホ表示時の最小高さを画面の100%に設定 */
-    /* 必要に応じて下部のパディングを追加 */
-    padding-bottom: 60px; /* ここで調整した値は例示です。お使いのデザインに合わせて変更してください。 */
+    padding-bottom: 60px; /* 下部のパディングを追加 */
   }
 }
 
