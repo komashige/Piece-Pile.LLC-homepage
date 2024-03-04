@@ -18,6 +18,9 @@ body {
   margin: 0 auto; /* 上下のマージンを0に、左右のマージンを自動に設定して中央寄せ */
 }
 
+.navbar {
+  background-image: linear-gradient(to bottom, orange 0%, rgba(255, 165, 0, 0.2) 100%);
+}
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
 .kimitama-font {
   font-family: "Slackside One", cursive;
@@ -251,8 +254,9 @@ img {
 }
 
 .footer-top {
-  background-color: orange;
+  background-image: linear-gradient(to bottom, orange 0%, rgba(255, 165, 0, 0.4) 100%);
 }
+
 
 footer {
   margin-top: 50px; /* または padding-top: 50px; */

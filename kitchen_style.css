@@ -17,7 +17,9 @@ body {
   max-width: 1200px; /* 最大幅を1200pxに設定 */
   margin: 0 auto; /* 上下のマージンを0に、左右のマージンを自動に設定して中央寄せ */
 }
-
+.navbar {
+  background-image: linear-gradient(to bottom, #f5821f 0%, rgba(245, 130, 31, 0.3) 100%);
+}
 /* 新しいクラス名を<h1>に追加して、そのクラスに対してスタイルを適用する例 */
 .kimitama-font {
   font-family: "Cabin Sketch", sans-serif;
@@ -55,6 +57,16 @@ body {
     1px   0px 0 #fff,
     0px  -1px 0 #fff,
    -1px   0px 0 #fff;
+}
+
+.card-sab {
+  background-color: rgba(255, 255, 255, 0.7); /* 半透明の白背景 */
+  padding: 2px; /* 内側の余白を2pxに設定 */
+  max-width: 800px; /* 最大横幅を1200pxに設定 */
+  margin: 0 auto; /* 上下の余白を0にし、左右の余白をautoにして中央寄せ */
+  /* border: solid 1px #000; 枠線を追加（必要に応じて） */
+  border-radius: 10px; /* 角を丸くする */
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.5); /* 枠際をぼやかせる（暖色のオレンジ） */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -256,8 +268,9 @@ img {
 }
 
 .footer-top {
-  background-color: #f5821f;
+  background-image: linear-gradient(to bottom, #f5821f 0%, rgba(245, 130, 31, 0.3) 100%);
 }
+
 
 .bg-orange {
   background-color: #f5821f; /* オレンジ色の例 */

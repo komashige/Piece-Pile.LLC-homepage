@@ -18,6 +18,9 @@ body {
   margin: 0 auto; /* 上下のマージンを0に、左右のマージンを自動に設定して中央寄せ */
 }
 
+.navbar {
+  background-image: linear-gradient(to bottom, rgba(135, 206, 250, 30) 0%, rgba(255, 255, 255, 0.7) 100%);
+}
 .card-img-top {
   max-width: 100%; /* 画像の幅をカードの幅に合わせる */
   height: 125px; /* 画像の高さを自動で調整し、アスペクト比を保つ */
@@ -76,6 +79,37 @@ body {
     0px  -1px 0 #fff,
    -1px   0px 0 #fff;
 }
+
+.card-sab-guide {
+  background-color: rgba(255, 255, 0, 0.7); /* 半透明の黄色背景 */
+  padding: 2px; /* 内側の余白を2pxに設定 */
+  max-width: 600px; /* 最大横幅を600pxに設定（1200pxとの記述があったため、明確化します） */
+  margin: 0 auto; /* 上下の余白を0にし、左右の余白をautoにして中央寄せ */
+  border-radius: 30px; /* 角を丸くする */
+  box-shadow: 0 0 10px rgba(255, 255, 0, 1); /* 枠際をぼやかせる */
+}
+
+
+.card-sab {
+  background-color: rgba(255, 255, 255, 0.7); /* 半透明の白背景 */
+  padding: 2px; /* 内側の余白を2pxに設定 */
+  max-width: 600px; /* 最大横幅を1200pxに設定 */
+  margin: 0 auto; /* 上下の余白を0にし、左右の余白をautoにして中央寄せ */
+  /* border: solid 1px #000; 枠線を追加（必要に応じて） */
+  border-radius: 30px; /* 角を丸くする */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* 枠際をぼやかせる */
+}
+
+.text-dark {
+  font-weight: bold; /* テキストを太くする */
+  color: #000; /* テキストの色を暗く指定（'dark'ではなく、具体的な色コードまたは色名を使用します） */
+}
+
+.ms-3 {
+  margin-top: 16px;
+  margin-left: 16px; /* テキストの左余白を調整（この値はBootstrapのクラスに基づいています） */
+  margin-right: 16px;
+} 
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark);
@@ -375,3 +409,9 @@ a[href^="mailto:"] {
 a[href^="mailto:"]:hover {
   color: #fff; /* ホバー時に色を白に変更 */
 }
+
+.footer-top {
+  background-image: linear-gradient(to bottom, rgba(135, 206, 250, 30) 0%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+
