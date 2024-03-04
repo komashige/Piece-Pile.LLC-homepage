@@ -43,15 +43,16 @@ body {
 
 .kimitama-font, .pile-font, .yomi-font {
   text-shadow: 
-    -3px -3px 0 #fff,  
-     3px -3px 0 #fff,
-    -3px  3px 0 #fff,
-     3px  3px 0 #fff,
-    0px   3px 0 #fff,
-    3px   0px 0 #fff,
-    0px  -3px 0 #fff,
-   -3px   0px 0 #fff;
+    -2px -2px 0 #fff,  
+     2px -2px 0 #fff,
+    -2px  2px 0 #fff,
+     2px  2px 0 #fff,
+    0px   2px 0 #fff,
+    2px   0px 0 #fff,
+    0px  -2px 0 #fff,
+   -2px   0px 0 #fff;
 }
+
 
 .memo-font {
   text-shadow: 
