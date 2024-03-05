@@ -105,12 +105,12 @@ a {
 }
 
 .navbar .nav-link:hover {
-  color: #fff !important; /* ホバー時の色を赤に設定 */
+  color: #00008b !important; /* ホバー時の色を濃い青色に設定 */
   transform: scale(1.2); /* ホバー時に少し拡大 */
 }
 
 .btn {
-  padding: 14px 18px;
+  padding: 10px 10px;
   border-width: 2px;
 }
 
@@ -185,6 +185,21 @@ a {
 .header {
   display: flex; /* フレックスボックスを使用して要素を横並びに */
   align-items: center; /* アイテムを中央揃えに */
+}
+
+.iconbox-title { /*ヘッダー内アイコンの大きさ設定*/
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  justify-content: center;
+  border-radius: 100px;
+  transition: transform 0.4s ease; /* ホバー時の変形に滑らかな遷移を追加 */
+}
+
+.iconbox-title:hover {
+  transform: scale(1.1); /* ホバー時に少し大きくする */
 }
 
 .iconbox {
@@ -376,22 +391,28 @@ img {
 /* メールアドレスのリンクに適用されるスタイル */
 a[href^="mailto:"] {
   color: inherit; /* 初期状態では親要素の色を継承 */
-  transition: color 0.3s ease; /* 色の変化を滑らかに */
+  display: inline-block; /* リンクをインラインブロック要素として扱う */
+  text-decoration: underline; /* リンクにアンダーラインを追加 */
 }
 
 /* メールアドレスのリンクにカーソルがホバーされたときのスタイル */
 a[href^="mailto:"]:hover {
   color: #fff; /* ホバー時に色を白に変更 */
+  transition: color 0.4s, transform 0.4s; /* 色と形の変化を滑らかに */
 }
 
 .home-back a {
   color: white; /* リンクの基本色を白に設定 */
   display: inline-block; /* リンクをインラインブロック要素として扱う */
+  text-decoration: underline; /* リンクにアンダーラインを追加 */
 }
 
 .home-back a:hover {
   color: #00008B; /* ホバー時にダークブルーに変更 */
+  transform: scale(1.2); /* ホバー時に少し拡大 */
+  transition: color 0.4s, transform 0.4s; /* 色と形の変化を滑らかに */
 }
+
 
 .footer-top {
   background-image: linear-gradient(to bottom, #007bff 0%, rgba(0, 123, 255, 0.2) 100%);
