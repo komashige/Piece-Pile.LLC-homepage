@@ -32,6 +32,10 @@ body {
   border-radius: 100px;
 }
 
+.iconbox-title {
+  margin-right: 10px; /* アイコンとタイトルの間隔 */
+}
+
 .card-img-top {
   max-width: 100%; /* 画像の幅をカードの幅に合わせる */
   height: 125px; /* 画像の高さを自動で調整し、アスペクト比を保つ */

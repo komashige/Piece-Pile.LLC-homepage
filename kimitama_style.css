@@ -70,9 +70,10 @@ section{
   padding-bottom: 50px;
 }
 
-a.text-white {
+a.text-white { /*フッターの会社の部分の設定*/
   display: inline-block; /* aタグをインラインブロック要素に変更 */
-  text-decoration: none;
+  /* text-decoration: none; アンダーラインを除去 */
+  text-decoration: underline; /* アンダーラインを付ける */
   color: var(--dark); /* または必要に応じて他の色を指定 */
   transition: color 0.4s, transform 0.4s; /* 色と拡大のトランジションを追加 */
 }

@@ -202,6 +202,10 @@ a {
   transform: scale(1.1); /* ホバー時に少し大きくする */
 }
 
+.iconbox-title {
+  margin-right: 10px; /* アイコンとタイトルの間隔 */
+}
+
 .iconbox {
   width: 54px;
   height: 54px;
