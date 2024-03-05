@@ -426,6 +426,7 @@ img {
 /* メールアドレスのリンクに適用されるスタイル */
 a[href^="mailto:"] {
   color: inherit; /* 初期状態では親要素の色を継承 */
+  text-decoration: underline; /* アンダーラインを付ける */
   transition: color 0.3s ease; /* 色の変化を滑らかに */
 }
 
