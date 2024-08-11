@@ -178,7 +178,7 @@ a.text-white:hover h6 {
 .iconbox img {
   width: 100%; /* 親要素の幅に合わせる */
   height: 100%; /* 親要素の高さに合わせる */
-  border-radius: 100px; /* 角を丸くする */
+  border-radius: 50px; /* 角を丸くする */
   object-fit: cover; /* 画像のアスペクト比を保ちつつ、設定された高さと幅に収まるように調整 */
 }
 
