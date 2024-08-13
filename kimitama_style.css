@@ -166,11 +166,11 @@ a.text-white:hover h6 {
 }
 
 .iconbox {
-  width: 54px;
-  height: 54px;
+  width: 64px;
+  height: 64px;
   display: flex;
   align-items: center;
-  font-size: 32px;
+  font-size: 36px;
   justify-content: center;
   border-radius: 100px;
 }
@@ -186,6 +186,8 @@ a.text-white:hover h6 {
 .service {
   position: relative;
   overflow: hidden;
+  width: 100%; /* カード全体の幅を親要素に合わせる */
+  max-width: 450px; /* 必要に応じて最大幅を設定 */
 }
 
 .service::after {
