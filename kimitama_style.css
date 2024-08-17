@@ -187,7 +187,7 @@ a.text-white:hover h6 {
   position: relative;
   overflow: hidden;
   width: 100%; /* カード全体の幅を親要素に合わせる */
-  max-width: 450px; /* 必要に応じて最大幅を設定 */
+  max-width: 1200px; /* 必要に応じて最大幅を設定 */
 }
 
 .service::after {
